@@ -1,4 +1,4 @@
-# Python-Proxy-Sorter
+# Python Proxy Sorter.
 Turns ip:port:username:password into username:password@ip:port.
 
 
