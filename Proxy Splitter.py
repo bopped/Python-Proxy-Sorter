@@ -9,7 +9,5 @@ for proxysplit in proxies:
     user = proxy[2]
     password = proxy[3]
     with open('proxy.txt', 'a') as f:
-        f.write('{}:{}@{}:{}'.format(user, password,ips,port) + '\n')
+        f.write('%s:%s@%s:%s' % (user, password, ips, port) + '\n')
         f.close()
-
-
